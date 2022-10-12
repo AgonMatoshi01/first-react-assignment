@@ -17,7 +17,7 @@ export default () =>{
             <Route path="/Contacts" element ={<Contact/>}/>
             <Route
                 path="*"
-            element={<Navigate to="/Home" />}
+                element={<Navigate to="/Home" />}
             />
         </Routes>
 

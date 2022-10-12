@@ -5,13 +5,13 @@ const Header = () => {
   return (
   
       <div className='nav'>
-        <NavLink to="/Home" activeClassName="active">
+        <NavLink to="/Home" className="nav-link">
           Home
         </NavLink>
-        <NavLink to="/Stuff" activeClassName="active">
+        <NavLink to="/Stuff" className="nav-link">
           Stuff
         </NavLink>
-        <NavLink  to="/Contacts" activeClassName="active">
+        <NavLink  to="/Contacts" className="nav-link">
           Contacts
         </NavLink>
       </div>
